@@ -15,7 +15,7 @@ export default function TabsComponent({coins}) {
       setValue(newValue);
   };
   const  style={
-      color:"var(--white)", 
+      color:"var(--color)", 
       width:"50vw",
       fontSize:"1.2rem",
       fontWeight:600,

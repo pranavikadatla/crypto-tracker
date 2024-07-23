@@ -4,12 +4,12 @@
     display: flex;
     justify-content:space-between;
     align-items: center; 
-    padding: 1.5rem 3rem; 
-    background-color: var(--black);
+    padding: 0.8rem 3rem; 
+    background-color: var(--bodybgcolor);
     z-index:100;
 }
 .logo{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 .links{
     display: flex;
@@ -18,12 +18,12 @@
     gap: 1.5rem; 
 }
 .link{
-    color:var(--grey);
+    color:var(--normalgrey);
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .link:hover{
-    color: var(--white);
+    color: var(--color);
      transition: all 0.3s;
 }
 .mobile-drawer{
@@ -34,20 +34,20 @@
         padding: 1.5rem;
     }
     .logo{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .links{
         display: none;
     }
     .link{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .mobile-drawer{
         display: block;
     }
     .drawer-div{
         width: 30vw;
-        background-color: var(--black);
+        background-color: var(--bodybgcolor);
         height: 100vh;
         padding: 1.5rem;
     }

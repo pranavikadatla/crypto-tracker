@@ -2,16 +2,16 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap:1.5rem;
+    gap:0.3rem;
     padding: 1rem 2rem;
-    color: var(--grey);
+    color: var(--normalgrey);
     background-color: var(--darkgrey);
     width: 85%;
     margin: 1rem;
     margin-left: auto;
     margin-right: auto;
     border-radius: 3rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .search-flex input{
     background-color: var(--darkgrey);
@@ -19,7 +19,7 @@
     font-family: "Inter";
     font-size: 1.2rem;
     border: none;
-    color: var(--grey);
+    color: var(--color);
 
 }
 .search-flex input:focus{

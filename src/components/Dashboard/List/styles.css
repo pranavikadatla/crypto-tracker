@@ -2,8 +2,8 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin: 1.5rem;
-    padding:1rem;
+    margin: 1rem;
+    padding:0.3rem 1rem;
     border-radius: 1rem;
 }
 .list-row:hover{

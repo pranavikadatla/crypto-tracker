@@ -13,18 +13,18 @@ export default function PaginationComponent({page,handlePageChange}) {
      
      <Pagination count={10} page={page} onChange={(event,value)=>handlePageChange(event,value )} 
                    sx={{
-                     color:"var(--white)",
+                     color:"var(--color)",
                      "& .Mui-selected":{
                         backgroundColor:"var(--blue) !important",
                         color:"#fff !important",
                         borderColor:"var(--blue) !important",
                       },
                      "& .MuiPaginationItem-ellipsis":{
-                        border:"0px solid var(--grey) !important",
+                        border:"0px solid var(--lightgrey) !important",
                       },
                      "& .MuiPaginationItem-text":{
-                     color:"var(--white)",
-                       border:"1px solid var(--grey)",
+                     color:"var(--color)",
+                       border:"1px solid var(--lightgrey)",
                    },
                 }}      
               

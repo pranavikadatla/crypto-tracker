@@ -4,6 +4,7 @@
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
     font-weight: 600;
+    font-size: 20px;
     cursor: pointer;
     border: 2px solid var(--blue);
     text-align: center;
@@ -15,7 +16,7 @@
     transition: all 0.3s;
 }
 .outlined-btn{
-    background-color: var(--black);
+    background-color: var(--bodybgcolor);
     color: var(--white);
     border: 2px solid var(--blue);
     padding: 0.5rem 1.5rem;

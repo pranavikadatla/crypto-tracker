@@ -2,6 +2,7 @@ import React from "react";
 import"./styles.css";
 import Button from "../../Common/Button";
 import phone from "../../../assets/phone.png";
+import { Link } from "react-router-dom";
 import gradient from "../../../assets/gradient.png"
 import {motion} from "framer-motion";
 function MainComponent(){
@@ -12,8 +13,7 @@ function MainComponent(){
                 <h1 className="real-time-heading">Real Time.</h1>
                 <p className="info-text">Track Crypto through a public api in real time .Visit the dashboard to do so!</p>
                 <div className="btn-flex"> 
-                   <Button text={"Dashboard"}/>
-                   <Button text={"Share App"} outlined={true}/>
+                <Link to="/dashboard"> <Button text={"Dashboard"}  onClick={()=>console.log("")}/></Link>
                 </div>
                 </div>
             <div className="phone-container">

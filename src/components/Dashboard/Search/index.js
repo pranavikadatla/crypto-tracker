@@ -5,7 +5,7 @@ function Search( { search,onSearchChange} ){
     return(
         <div className="search-flex"> 
             <SearchRoundedIcon/>
-            <input type="text" placeholder="search" value={search} onChange={(e)=>onSearchChange(e)}/>
+            <input type="text" placeholder="Search" value={search} onChange={(e)=>onSearchChange(e)}/>
         </div>
     )
 }

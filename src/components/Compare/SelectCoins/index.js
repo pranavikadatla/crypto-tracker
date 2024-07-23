@@ -7,12 +7,12 @@ function SelectCoins({crypto1,crypto2,handleCoinChange}){
    const [allCoins,setAllCoins]=useState([]);
     const styles={
             height:"2.5rem",
-            color:"var(--white)",
+            color:"var(--color)",
             "& .MuiOutlinedInput-notchedOutline":{
-              borderColor:"var(--white)",
+              borderColor:"var(--color)",
             },
             "& .MuiSvgIcon-root":{
-              color:"var(--white)",
+              color:"var(--color)",
          },
             "&:hover":{
               "&& fieldset":{

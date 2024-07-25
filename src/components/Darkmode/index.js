@@ -16,6 +16,9 @@ function BasicSwitches() {
     if(selectedTheme==="light"){
       lightTheme();
     }
+    if(selectedTheme==="dark"){
+      darkTheme();
+    }
     const toggleTheme= (e)=>{
             if(e.target.checked) darkTheme();
             else lightTheme();
